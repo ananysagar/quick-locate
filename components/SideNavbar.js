@@ -19,6 +19,7 @@ function SideNavbar() {
     <div className="p-2 items-center flex flex-col w-[100px] space-y-6 shadow-lg shadow-purple-500 h-screen sticky top-0 bg-white z-20">
       <Image src="/logo.png" alt="logo" width={50} height={50} />
       {menu.map((item) => (
+        // eslint-disable-next-line react/jsx-key
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
