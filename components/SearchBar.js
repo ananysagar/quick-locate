@@ -2,7 +2,7 @@ import React from "react";
 
 function SearchBar() {
   return (
-    <div className="flex gap-3 bg-purple-300 p-3 rounded-xl">
+    <div className="flex gap-3 bg-purple-200 p-3 rounded-xl">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
