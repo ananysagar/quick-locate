@@ -22,7 +22,7 @@ function CategoryList() {
             <Image
               src={element.icon}
               alt={element.name}
-              width={40}
+              width={45}
               height={40}
             />
             <h2 className="text-[12px] text-purple-800">{element.name}</h2>
